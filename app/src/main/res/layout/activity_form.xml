@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormActivity">
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextNom"
+                android:hint="@string/txtNom"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextPrenom"
+                android:hint="@string/txtPrenom"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextEmail"
+                android:hint="@string/txtEmail"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextAdresse"
+                android:hint="@string/txtAdresse"
+                android:inputType="text"/>
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextCodePostal"
+                android:hint="@string/txtCodePostal"
+                android:inputType="number"/>
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextVille"
+                android:hint="@string/txtVille"
+                android:inputType="textAutoComplete"/>
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextCarteDeFidelite"
+                android:hint="@string/txtCarteDeFidelite"
+                android:inputType="text"/>
+
+            <Button
+                style="@style/ButtonStyle"
+                android:id="@+id/buttonCreer"
+                android:layout_height="wrap_content"
+                android:text="@string/txtCreer" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

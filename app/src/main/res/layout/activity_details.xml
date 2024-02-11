@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextNom"
+                android:hint="Nom" />
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextPrenom"
+                android:hint="Prénom" />
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextEmail"
+                android:hint="Email" />
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextAdresse"
+                android:hint="Adresse" />
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextCodePostal"
+                android:hint="Code Postal" />
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:id="@+id/editTextVille"
+                android:hint="Ville" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:id="@+id/buttonEnregistrer"
+                android:layout_height="wrap_content"
+                android:text="@string/txtUpdate" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

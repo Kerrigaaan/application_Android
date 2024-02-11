@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">application</string>
+    <string name="txtTitre">Création de compte</string>
+    <string name="txtRemplir">Remplir le Formulaire</string>
+
+    <string name="txtNom">Nom</string>
+    <string name="txtPrenom">Prenom</string>
+    <string name="txtCreer">Creer</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtAdresse">Adresse</string>
+    <string name="txtCodePostal">Code postal</string>
+    <string name="txtVille">Ville</string>
+    <string name="txtCarteDeFidelite">Carte de fidelité</string>
+
+    <string name="txtTab1">Films</string>
+    <string name="txtTab2">Salles</string>
+    <string name="txtTab3">Carte</string>
+    <string name="txtTab4">Panier</string>
+    <string name="txtLogo">Logo</string>
+    <string name="txtUpdate">Enregistrez les modification</string>
+    <string name="txtCompte">Compte</string>
+    <string name="txtQr">QR code</string>
+    <string name="txtAjouter">Ajouter au panier</string>
+
+</resources>
