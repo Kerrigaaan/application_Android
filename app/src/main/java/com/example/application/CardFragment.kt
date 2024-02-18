@@ -26,7 +26,6 @@ private const val ARG_PARAM2 = "param2"
 
 class CardFragment : Fragment() {
 
-    // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
 
@@ -44,7 +43,6 @@ class CardFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.activity_card_fragment, container, false)
     }
 
@@ -70,7 +68,7 @@ class CardFragment : Fragment() {
         textViewNom.text = nom
         textViewPrenom.text = prenom
 
-        // objet JSON des informations de création de compte
+
         val jsonObject = JSONObject().apply {
             put("nom", nom)
             put("prenom", prenom)
@@ -81,13 +79,13 @@ class CardFragment : Fragment() {
             put("cateDeFidelite", cateDeFidelite)
         }
 
-        // Générer le QR code à partir des données JSON
+
         val bitmap = generateQRCode(jsonObject.toString())
 
 
         val imageViewQRCode = view.findViewById<ImageView>(R.id.imageViewQRCode)
 
-        // Afficher le QR code dans l'ImageView
+
         imageViewQRCode.setImageBitmap(bitmap)
     }
 
