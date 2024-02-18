@@ -16,7 +16,7 @@
     <string name="txtTab2">Salles</string>
     <string name="txtTab3">Carte</string>
     <string name="txtTab4">Panier</string>
-    <string name="txtLogo">Logo</string>
+    <string name="txtLogo"></string>
     <string name="txtUpdate">Enregistrez les modification</string>
     <string name="txtCompte">Compte</string>
     <string name="txtQr">QR code</string>
