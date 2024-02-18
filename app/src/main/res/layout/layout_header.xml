@@ -38,6 +38,12 @@
             android:src="@drawable/profil"
             android:visibility="gone" />
 
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="156dp"
+            android:layout_height="65dp"
+            app:srcCompat="@drawable/logo_clap" />
+
     </RelativeLayout>
 
     <ImageView
@@ -48,9 +54,4 @@
         android:src="@drawable/logo_clap"
         android:visibility="gone" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        app:srcCompat="@drawable/logo_clap" />
 </LinearLayout>
