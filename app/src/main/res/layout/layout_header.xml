@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -7,17 +8,16 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/purple_500"
-        >
+        android:background="@color/purple_500">
 
         <ImageView
             android:id="@+id/imageViewBack"
-            android:layout_marginStart="10dp"
-            android:visibility="gone"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
-            android:src="@drawable/retour"/>
+            android:layout_marginStart="10dp"
+            android:src="@drawable/retour"
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/textViewTitle"
@@ -30,13 +30,27 @@
             android:textStyle="bold" />
 
         <ImageView
-        android:id="@+id/imageUserLogo"
-        android:layout_width="40dp"
-        android:visibility="gone"
-        android:layout_height="40dp"
-        android:layout_marginStart="350dp"
-        android:layout_centerVertical="true"
-        android:src="@drawable/profil" />
+            android:id="@+id/imageUserLogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="350dp"
+            android:src="@drawable/profil"
+            android:visibility="gone" />
 
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="116dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="350dp"
+        android:src="@drawable/logo_clap"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/logo_clap" />
 </LinearLayout>
